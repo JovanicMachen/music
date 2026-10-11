@@ -1,0 +1,27 @@
+.app-container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.app-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.app-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: #a78bfa;
+  margin-top: 15px;
+}
+
+.app-description {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-top: 20px;
+}
+
+body {
+  background-color: rgb(95, 12, 46);
+}
