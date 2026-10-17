@@ -1,1 +1,1 @@
-/* Styles for ScoreBoard will be added here. */
+.score-board { display: flex; align-items: center; gap: 9px; padding: 10px 16px; border: 1px solid #e9bc5533; border-radius: 9px; background: #e9bc5508; font-size: 13px; } .score-star { color: #eac16c; font-size: 19px; } .score-label { color: #999d9e; }

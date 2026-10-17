@@ -1,1 +1,4 @@
-/* Styles for the Home page will be added here. */
+.home-page { min-height: 100svh; overflow: hidden; background: radial-gradient(ellipse at 50% 34%, #25272266, transparent 56%), #0d1115; }
+.home-footer { max-width: 1280px; margin: 0 auto; padding: 27px 48px; border-top: 1px solid #ffffff12; display: flex; justify-content: space-between; gap: 20px; color: #71777c; font-size: 11px; }
+.home-footer span:first-child { letter-spacing: 2px; font-size: 9px; }
+@media(max-width: 600px) { .home-footer { margin: 0 24px; padding: 24px 0; flex-direction: column; gap: 10px; } }

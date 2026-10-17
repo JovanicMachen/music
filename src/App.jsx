@@ -1,13 +1,8 @@
+import { useState } from "react";
+import Home from "./pages/Home";
+import Game from "./pages/Game";
 import "./App.css";
-
-function App() {
-  return (
-    <div className="app-container">
-      <h1 className="app-title">Trivia Project</h1>
-      <h2 className="app-subtitle">Test Your Music, Movie & TV Knowledge</h2>
-      <p className="app-description">Your next trivia challenge starts here.</p>
-    </div>
-  );
+export default function App() {
+  const [page, setPage] = useState("home");
+  return <div className="app-container">{page === "home" ? <Home score={0} onPlay={() => setPage("game")} /> : <Game />}</div>;
 }
-
-export default App;
